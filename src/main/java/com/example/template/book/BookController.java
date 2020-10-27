@@ -32,9 +32,6 @@ public class BookController {
         return this.bookService.save(data);
     }
 
-    @Value("${superuser.userId}")
-    String superUserId;
-
     /*@Autowired
     Environment env;
     *//**
